@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/global.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <title>Travel Site</title>
+</head>
+<body> 
+    <!--header-->
+    <header class="header">
+        <!-- Main nav-->
+        <nav class="nav">
+            <!--site logo-->
+            <a class="nav__link" href="./index.html"><h2 class="nav__title">Travel Site</h2></a>
+            <!--Nav list-->
+            <ul class="nav__list">
+                <a class="nav__link" href="./index.html"><li class="nav__item nav__item--current">Home</li></a>
+                <a class="nav__link" href="./pages/hawaii.html"><li class="nav__item">Hawaii</li></a>
+                <a class="nav__link" href="./pages/iceland.html"><li class="nav__item">Iceland</li></a>
+                <a class="nav__link" href="./pages/greece.html"><li class="nav__item">Greece</li></a>
+            </ul>
+        </nav><!--Nav end-->
+    </header><!-- header end-->
+    <!--Main cointainer-->
+    <main class="main">
+        <!--Hero section-->
+        <section class="hero">
+            <!--aside with hero text-->
+            <aside class="hero__txt-container">
+                <h1 class="hero__title">Travelling Comes With <br> Endless Discoveries</h1>
+                <p class="hero__txt">Don't let your dreams be just dreams. Experience the world by booking a <br> vacation with us now.</p>
+                <a class="here__link" href="#recommendations"><button class="hero__btn">Get Started</button></a>
+            </aside> <!--aside end-->
+            <!--hero image-->
+            <img class="hero__img" src="./assets/Images/hero.png" alt="hero image" /> 
+        </section> <!--hero section end-->
+        <!--recommendations section-->
+        <section id="recommendations" class="rec">
+            <h2 class="rec__title">Recommendations</h2>
+            <!--container for recommendations cards-->
+            <article class="rec__card-container">
+                <!-- hawaii card-->
+                <a class="card__link" href="./pages/hawaii.html"><div class="card card--model1 card--hawaii">                                    
+                    <p class="card__txt">Hawaii</p>
+                </div></a><!--hawaii card end-->
+                <!--Iceland Card-->
+                <a class="card__link" href="./pages/iceland.html"><div class="card card--model1 card--iceland">
+                    <p class="card__txt">Iceland</p>
+                </div></a><!--Iceland card end-->
+                <!--greece card-->
+                <a class="card__link" href="./pages/greece.html"><div class="card card--model1 card--greece">
+                    <p class="card__txt">Greece</p>
+                </div></a><!--greece card end-->
+            </article><!--Card recommendations end-->
+        </section><!--recommendations seciton end-->
+    </main><!--Main content container end-->
+    <!--footer-->
+    <footer class="footer">
+        <!--contact section-->
+        <section class="footer__section">
+            <h2 class="footer__main-title">Contact</h2>
+            <div class="footer__separator">
+                <h5 class="footer__title">email</h5>
+                <p class="footer__txt">info@travelsite.com</p>
+            </div>
+        </section><!--contact section end-->
+        <!--hours section-->
+        <section class="footer__section">
+            <!--weekdays-->
+            <h2 class="footer__main-title">Hours</h2>
+            <div class="footer__separator">
+                <h5 class="footer__title">monday - friday</h5>
+                <p class="footer__txt">9:00 AM - 5:00 PM</p>
+            </div>
+            <!--saturday-->
+            <div class="footer__separator">
+                <h5 class="footer__title">saturday</h5>
+                <p class="footer__txt">10:00 AM - 4:00 PM</p>
+            </div>
+            <!--sunday-->
+            <div class="footer__separator">
+                <h5 class="footer__title">sunday</h5>
+                <p class="footer__txt">Closed</p>
+            </div>
+        </section><!--hours section end-->
+        <!--social media-->
+        <section class="footer__section">
+            <h2 class="footer__main-title">Social</h2>
+            <a class="footer__link" href="https://www.instagram.com" target="_blank"><img class="footer__img" src="./assets/Icons/icon-instagram.png" alt="instagram" /></a>
+            <a class="footer__link" href="https://www.facebook.com" target="_blank"><img class="footer__img" src="./assets/Icons/icon-facebook.png" alt="facebook" /></a>
+            <a class="footer__link" href="https://www.twitter.com" target="_blank"><img class="footer__img" src="./assets/Icons/icon-twitter.png" alt="twitter" /></a>
+        </section><!-- social media section end-->
+    </footer><!-- footer end-->
+</body>
+</html>

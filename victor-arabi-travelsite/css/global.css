@@ -1,0 +1,120 @@
+/* sets the default margin, padding and font family (fallback fonts as well) - sets box sizing as border box */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+/* main block position adjustment due to nav bar */
+.main, .footer {
+    position: relative;
+    top: 4rem;
+}
+
+/* Nav bar block - global to all pages */
+.nav {
+    width: 100%;
+    height: fit-content;
+    padding-top: 0.167px;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*nav link element*/
+.nav__link {
+    color: black;
+    text-decoration: none;
+}
+
+/*nav title element*/
+.nav__title {
+    margin: 1.111rem 5rem;
+    font-size: 1.33rem;
+    color: #335576;
+}
+
+/*nav list element*/
+.nav__list {
+    margin: 0.417rem 3.333rem;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+/*nav item element*/
+.nav__item  {
+    margin: 0 0.556rem;
+    padding: 0.417rem 0;
+}
+
+/*nav item element modification for when the page is the current one*/
+.nav__item--current {
+    border-bottom: solid 0.167rem #DB7A4E;
+}
+
+/* footer block */
+
+.footer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    color: #335576;
+    background-color: #FEFAF5;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* section element */
+.footer__section {
+    width: fit-content;
+    margin: 2.222rem 1.667rem;
+    font-size: 1rem;
+}
+
+/* separator element */
+.footer__separator {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    border: none;
+    padding: 0;
+    margin-right: 1.667rem;
+}
+
+/* main-title element */
+.footer__main-title {
+    font-size: 1.5rem;
+    margin: 1.389rem 0;
+}
+
+/* title element */
+.footer__title {
+    margin: 0 0 0.833rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #DB7A4E;
+}
+
+/* img element */
+.footer__img {
+    height: 1.667rem;
+    margin-top: 1.111rem;
+    margin-right: 1.667rem;
+}
+
+/* card block */
+
+.card {
+    width: 19.167rem;
+    margin: 0 1.389rem 4.444rem;
+    border-radius: 0.278rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+}

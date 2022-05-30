@@ -1,0 +1,77 @@
+/* main block */
+
+.main {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items:  flex-start;
+    background-position: center;
+    background-size: cover;
+}
+
+/* main block modification for each itinerary destination*/
+
+/* hawaii destination */
+.main--dest1 {
+    background-image: url("../assets/Images/hawaii.jpg");
+}
+
+/* iceland destination */
+.main--dest2 {
+    background-image: url("../assets/Images/iceland.jpg");
+}
+
+/* greece destination */
+.main--dest3 {
+    background-image: url("../assets/Images/greece.jpg");
+}
+
+/* main title element */
+.main__title {
+    margin: 3.333rem 5rem 2.222rem;
+    font-size: 5rem;
+    color: #FFFFFF;
+}
+
+/* destination page card container */
+.main__card-container   {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+/* card block */
+
+/* card model 2 modification for the destinations page */
+.card--model2 {
+    height: 25.889rem;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+/* card title element */
+.card__title    {
+    width: 90%;
+    margin: 0.889rem 0 1.389rem;
+    border-bottom: 0.167rem solid black ;
+    font-size: 1.33rem;
+    font-weight: bolder;
+}
+
+/* card list element */
+.card__item  {
+    width: 17.25rem;
+    height: 3.4rem;
+    line-height: 3.4rem;
+    margin: 0.889rem;
+    list-style: none;
+    font-size: 1.33rem;
+    background-color: #FEFAF5;
+}
+

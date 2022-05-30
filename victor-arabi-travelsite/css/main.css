@@ -1,0 +1,115 @@
+/* hero block */
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-wrap: nowrap;
+    color: #335576;
+    background-color: #FEFAF5;
+}
+
+/* hero img element */
+.hero__img  {
+    height: 26.667rem;
+    margin: 2.778rem 3.333rem 5.556rem 0;
+}
+
+/* hero txt container element */
+.hero__txt-container    {
+    margin: 5rem 0 5rem 5rem;
+}
+
+/* hero title element */
+.hero__title    {
+    margin: 2.222rem 0;
+    font-size: 2.8rem;
+}
+
+/* hero txt element */
+.hero__txt  {
+    margin: 2.222rem 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+/* hero btn element */
+.hero__btn  {
+    border: none;
+    border-top-left-radius: 1.389rem;
+    border-top-right-radius: 1.389rem;
+    border-bottom-right-radius: 1.389rem;
+    border-bottom-left-radius: 1.389rem;
+    padding: 0.75rem 2.889rem;
+    font-size: 0.96rem;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #DB7A4E;
+}
+
+/* recommendation section block */
+
+.rec    {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 1rem;
+    justify-self: flex-start;
+}
+
+/* recommendations title element */
+.rec__title {
+    margin: 3.333rem 0 1.944rem 5rem;
+    font-size: 1.5rem;
+    color: #335576;
+}
+
+/* recommendations card container */
+.rec__card-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+/* card block modifications */
+
+/* card model 1 modification for the recommendations section of index.html */
+.card--model1 {
+    height: 28.056rem;
+    border: 0.056rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 0.222rem 0.222rem rgba(0, 0, 0, .2);
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-position: center;
+    background-size: cover;
+}
+
+/* hawaii card modification for the recommendations section of index.html */
+.card--hawaii   {
+    background-image: url("../assets/Images/hawaii.jpg");
+}
+
+/* iceland card modification for the recommendations section of index.html */
+.card--iceland   {
+    background-image: url("../assets/Images/iceland.jpg");
+}
+
+/* hawaii card modification for the recommendations section of index.html */
+.card--greece   {
+    background-image: url("../assets/Images/greece.jpg");
+}
+
+/* card link element for main page */
+.card__link {
+    text-decoration: none;
+}
+/* card link element for main page */
+.card__txt  {
+    margin: 1.111rem 1.667rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
